@@ -1,0 +1,70 @@
+Câu 1. Cho đồ thị tổng quát có ma trận kề được lưu trong tập tin input.txt như sau
+	Dòng đầu tiên chứa số nguyên n (n > 2) thể hiện số đỉnh của đồ thị.
+	n dòng tiếp theo: mỗi dòng chứa n số nguyên không âm cách nhau bằng khoảng trắng. Gọi [i, j] là giá trị tại dòng i cột j (i, j = 0, …, n-1). [i, j] = 0: không có cạnh nối từ đỉnh i đến đỉnh j, [i, j] = m: có m cạnh nối từ đỉnh i đến đỉnh j.
+Hãy in ra màn hình các thông tin sau
+a.	Ma trận kề của đồ thị
+b.	Xác định tính có hướng của đồ thị
+c.	Số đỉnh của đồ thị (kể cả đỉnh đặc biệt).
+d.	Số cạnh của đồ thị (kể cả cạnh đặc biệt)
+e.	Số lượng cặp đỉnh xuất hiện cạnh bội, số cạnh khuyên
+f.	Số đỉnh treo, số đỉnh cô lập
+g.	Xác định bậc (nếu là đồ thị vô hướng) hoặc bậc vào – bậc ra (nếu là đồ thị có
+hướng) của từng đỉnh trong đồ thị.
+h.	Xác định loại đồ thị cơ bản: đơn đồ thị, đa đồ thị, giả đồ thị, đồ thị có hướng, hay
+đa đồ thị có hướng
+Quy ước:
+-	Trong đồ thị có hướng, bậc của đỉnh là tổng bậc vào và bậc ra
+-	Cạnh khuyên tạo 1 bậc vào và 1 bậc ra cho TH có hướng hoặc 2 bậc cho TH vô hướng.
+-	Đỉnh treo là đỉnh có bậc bằng 1, đỉnh cô lập là đỉnh có bậc bằng 0.
+
+Ví dụ 1-1
+
+input.txt	 	Nội dung xuất ra màn hình
+4
+0 1 0 1
+0 1 0 1
+0 0 1 0
+0 0 0 0		 
+ 
+Ví dụ 1-2
+input.txt	
+ 	Nội dung xuất ra màn hình
+6
+1 1 0 0 1 0
+1 0 1 0 1 0
+0 1 0 1 0 0
+0 0 1 0 2 1
+1 1 0 2 0 0
+0 0 0 1 0 0		 
+
+Câu 2. Cho đơn đồ thị có ma trận kề được lưu trong tập tin input.txt như sau
+	Dòng đầu tiên chứa số nguyên n (n > 2) thể hiện số đỉnh của đồ thị.
+	n dòng tiếp theo: mỗi dòng chứa n số nguyên không âm cách nhau bằng khoảng trắng. Gọi [i, j] là giá trị tại dòng i cột j (i, j = 0, …, n-1). [i, j] = 0: không có cạnh nối từ đỉnh i đến đỉnh j, [i, j] = 1: có cạnh nối từ đỉnh i đến đỉnh j.
+Hãy in ra màn hình các thông tin sau
+a.	Kiểm tra đồ thị có phải là đồ thị đầy đủ hay không? Xác định tham số n trong Kn.
+b.	Kiểm tra đồ thị có phải là đồ thị chính quy hay không? Xác định tham số n trong ký hiệu n-chính quy.
+c.	Kiểm tra đồ thị có phải là đồ thị vòng hay không? Xác định tham số n trong Cn.
+Lưu ý:
+-	Đơn đồ thị có thể thuộc về nhiều dạng đồ thị đặc biệt khác nhau.
+-	Đồ thị vòng và đồ thị đầy đủ rất dễ bị nhầm lẫn với nhau nếu kiểm tra sai điều kiện.
+
+Ví dụ 2-1
+
+input.txt	Đồ thị	Nội dung xuất ra màn hình
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 1 0
+0 0 1 0 1
+1 0 0 1 0	
+ 	 
+ 
+Ví dụ 2-2
+
+input.txt	Đồ thị	Nội dung xuất ra màn hình
+5
+0 1 1 1 1
+1 0 1 1 1
+1 1 0 1 1
+1 1 1 0 1
+1 1 1 1 0	
