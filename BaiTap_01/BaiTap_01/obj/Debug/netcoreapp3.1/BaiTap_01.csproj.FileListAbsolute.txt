@@ -1,0 +1,15 @@
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.exe
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\input.txt
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.deps.json
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.runtimeconfig.json
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.runtimeconfig.dev.json
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.dll
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\bin\Debug\netcoreapp3.1\BaiTap_01.pdb
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.csproj.AssemblyReference.cache
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.AssemblyInfoInputs.cache
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.AssemblyInfo.cs
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.csproj.CoreCompileInputs.cache
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.dll
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.pdb
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.genruntimeconfig.cache
+C:\Users\nhatthien.vn\source\repos\BaiTap_01\BaiTap_01\obj\Debug\netcoreapp3.1\BaiTap_01.GeneratedMSBuildEditorConfig.editorconfig
